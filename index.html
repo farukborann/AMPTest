@@ -102,10 +102,22 @@ An AMP HTML tutorial - learn the different building blocks of an AMP HTML file. 
         }
       </style></noscript
     >
+    <!-- AMP Analytics -->
+    <script
+      async
+      custom-element="amp-analytics"
+      src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+    ></script>
   </head>
   <!-- ## Body -->
   <!-- -->
   <body>
+    <!-- Google Tag Manager -->
+    <amp-analytics
+      config="https://www.googletagmanager.com/amp.json?id=GTM-M8GW7KFT&gtm.url=SOURCE_URL"
+      data-credentials="include"
+    ></amp-analytics>
+
     <!--
     Most HTML tags can be used directly in AMP HTML.
   -->
