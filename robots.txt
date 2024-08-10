@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://omerfarukboran.com.tr/sitemap.xml
