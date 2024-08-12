@@ -1,0 +1,24 @@
+<div class="slider-container">
+  <div class="carousel-container">
+    <amp-carousel
+      id="carousel-with-lightbox"
+      width="120"
+      height="120"
+      layout="responsive"
+      type="slides"
+      lightbox
+      autoplay
+      delay="3000"
+    >
+      ${{IMAGES}}
+    </amp-carousel>
+  </div>
+  <div class="buttons">
+    <a class="tel" href="tel:${{PHONE_NUMBER}}">${{PHONE_NUMBER}}</a>
+    <a
+      class="wp"
+      href="https://api.whatsapp.com/send/?phone=+9${{PHONE_NUMBER}}&text=Merhaba nunaranızı www.konyapar.com sitesinden aldım"
+      >Whatsapp</a
+    >
+  </div>
+</div>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "html2amp": "^1.4.2",
+    "jsdom": "^24.1.1"
+  }
+}
